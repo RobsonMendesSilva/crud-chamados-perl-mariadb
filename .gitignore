@@ -1,0 +1,20 @@
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*~
+
+# Arquivos gerados pelo editor
+.vscode/
+.idea/
+
+# Dump original do banco local
+database/estrutura.sql
+
+# Metadados e arquivos locais
+.metadata/
+schema.sql
